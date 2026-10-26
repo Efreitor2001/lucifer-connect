@@ -18,7 +18,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--bg); font-family: var(--display); overflow-x: hidden; }
-body::before { content: ''; position: fixed; inset: 0; z-index: -4; background: url('https://raw.githubusercontent.com/Efreitor2001/vpn/main/desktop/LuciferConnect/Assets/lucifer-reference.png') center / cover no-repeat; filter: saturate(.98) contrast(1.08); }
+body::before { content: ''; position: fixed; inset: 0; z-index: -4; background: url('assets/lucifer-reference.png') center / cover no-repeat; filter: saturate(.98) contrast(1.08); }
 body::after { content: ''; position: fixed; inset: 0; z-index: -3; background: linear-gradient(90deg, rgba(5, 4, 4, .98), rgba(8, 5, 5, .52) 38%, rgba(9, 5, 5, .74)), linear-gradient(0deg, rgba(8, 5, 5, .97), transparent 35%, rgba(4, 3, 3, .34)); }
 a { color: inherit; text-decoration: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
