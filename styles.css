@@ -110,13 +110,14 @@ h2 span { color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, .63);
 .download-card { min-height: 108px; display: flex; align-items: center; gap: 22px; padding: 20px 24px; margin-bottom: 12px; border: 1px solid rgba(255, 255, 255, .16); background: rgba(15, 12, 12, .77); transition: background .25s, border .25s, transform .25s; }
 .download-card:hover { border-color: var(--red); background: rgba(55, 17, 16, .82); transform: translateX(5px); }
 .download-symbol { width: 52px; height: 52px; display: grid; place-items: center; border-radius: 50%; color: var(--red); font-size: 30px; background: rgba(255, 52, 71, .09); }
+.download-symbol img { width: 30px; height: 30px; display: block; }
 .download-text { flex: 1; }
 .download-platform { display: block; margin-bottom: 4px; color: var(--red); font: 9px var(--mono); letter-spacing: .14em; }
 .download-text strong { display: block; font-size: 25px; }
 .download-text small { display: block; margin-top: 4px; color: #847a74; font: 10px var(--mono); }
 .download-arrow { color: var(--red); font-size: 30px; }
 .hash-line { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 14px 0; color: #635b56; font: 9px var(--mono); }
-.hash-line code { color: #9c665d; }
+.hash-line a { color: #c66a62; }
 .hash-line span:nth-of-type(2) { margin-left: auto; }
 
 .how-section { padding-top: 170px; padding-bottom: 160px; }
