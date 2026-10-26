@@ -8,6 +8,7 @@
 - Домен: `lucifer-connect.ru` через `CNAME`
 - Деплой: GitHub Actions workflow `Deploy GitHub Pages`
 - Фоновое изображение: стандартный artwork Lucifer Connect из основного репозитория приложения
+- Актуальный деплой проверяется по workflow после каждого изменения `main`.
 
 ## Сборки
 
