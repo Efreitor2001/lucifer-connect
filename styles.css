@@ -261,3 +261,7 @@ h2 span { color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, .63);
   .reveal { opacity: 1; transform: none; }
 }
 
+.linux-alternative { margin: -4px 0 4px; color: #b8aaa4; font-size: 12px; line-height: 1.7; }
+.linux-alternative a { color: #ff6676; text-underline-offset: 3px; }
+.linux-alternative small { display: block; font-size: 11px; }
+
