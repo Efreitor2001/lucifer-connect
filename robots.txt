@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lucifer-connect.ru/sitemap.xml

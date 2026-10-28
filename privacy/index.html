@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090808">
+  <meta name="description" content="Политика конфиденциальности приложения Lucifer Connect: безопасная сеть для Android и Windows.">
+  <title>Политика конфиденциальности — Lucifer Connect</title>
+  <link rel="canonical" href="https://lucifer-connect.ru/privacy/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
+  <link rel="stylesheet" href="/legal.css">
+</head>
+<body>
+  <header class="legal-header wrap">
+    <a class="brand" href="/" aria-label="Lucifer Connect — главная"><img src="/assets/trident.svg" alt="">LUCIFER CONNECT</a>
+    <a class="home-link" href="/">На главную ↗</a>
+  </header>
+  <main class="wrap" id="top">
+    <p class="eyebrow">Lucifer Connect / безопасная сеть</p>
+    <h1>Политика конфиденциальности</h1>
+    <p class="updated">Редакция от <time datetime="2026-10-28">28 октября 2026 года</time></p>
+    
+<div class="summary">
+  <p><strong>Lucifer Connect — клиент безопасной сети.</strong> Для использования клиента не требуется создавать аккаунт Lucifer Connect или указывать имя, телефон либо электронную почту. Профили и настройки сохраняются на вашем устройстве.</p>
+  <p>При подключении и обновлении подписки выбранные вами серверы получают технические данные, необходимые для работы. Ниже объясняется, какие именно данные обрабатываются и кто их получает.</p>
+</div>
+<nav class="legal-nav" aria-label="Разделы политики"><a href="#data">Какие данные</a><a href="#recipients">Получатели</a><a href="#retention">Хранение и удаление</a><a href="#contact">Обращения</a><a href="#english" lang="en">English summary</a></nav>
+<h2>1. О приложении и области действия</h2>
+<p>Эта политика относится к приложению <strong>Lucifer Connect</strong> для Android и Windows и сайту <strong>lucifer-connect.ru</strong>. Канал проекта для вопросов о конфиденциальности и удаления сведений, отправленных в поддержку, — <a href="https://github.com/Efreitor2001/lucifer-connect/issues/new">обращения в репозитории Lucifer Connect</a>.</p>
+<p>Клиент позволяет подключаться к собственным серверам или серверам стороннего провайдера по добавленной вами конфигурации. Провайдер подписки, оператор сервера и посещаемые сервисы могут иметь собственные правила обработки данных.</p>
+<h2 id="data">2. Какие данные обрабатываются</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Данные</th><th>Зачем нужны и где обрабатываются</th></tr></thead>
+<tbody>
+<tr><td>Ссылки и конфигурации серверов, ключи доступа, адреса подписок, названия профилей</td><td>Для импорта, выбора сервера и установления соединения. Сохраняются локально. Данные авторизации передаются выбранному серверу или провайдеру при обращении к нему.</td></tr>
+<tr><td>Сетевой трафик, адреса назначения и запросы DNS</td><td>Для передачи через системный сетевой туннель и применения правил маршрутизации. Обрабатываются на устройстве, выбранным сервером и используемым DNS-сервисом. Исключённые приложения и маршруты обращаются к сети напрямую.</td></tr>
+<tr><td>Идентификатор установки, тип устройства, версия системы и версия клиента</td><td>Клиент создаёт случайный идентификатор установки и передаёт провайдеру подписки его производное, отдельное для каждого домена, вместе с версией системы. Android-клиент также передаёт модель устройства; Windows-клиент указывает тип устройства «PC». Это нужно для совместимости и учёта устройств у провайдера. Аппаратный серийный номер, IMEI и рекламный идентификатор для этого не используются.</td></tr>
+<tr><td>Лимиты, расход трафика и срок действия подписки</td><td>Приходят от провайдера и сохраняются локально, чтобы показывать состояние подписки.</td></tr>
+<tr><td>Выбранные приложения и правила исключения</td><td>Android-клиент читает список запускаемых приложений для выбора прямого подключения. Выбор хранится на устройстве; клиент не отправляет этот список разработчику или провайдеру подписки.</td></tr>
+<tr><td>Состояние соединения, счётчики трафика и диагностические события</td><td>Для отображения соединения и поиска ошибок на устройстве. Автоматическая отправка журналов разработчику не предусмотрена.</td></tr>
+<tr><td>Текст и вложения, которые вы сами отправляете в поддержку</td><td>Для ответа на обращение. При создании обращения на GitHub оно обрабатывается GitHub и может быть публичным. Не прикладывайте секретные ссылки или конфигурации.</td></tr>
+</tbody></table></div>
+<p>Клиент не запрашивает доступ к контактам, фотографиям, микрофону, камере или точной геолокации для работы безопасной сети. Импортированный файл читается только после вашего выбора в системном диалоге. Буфер обмена используется при нажатии на действие вставки.</p>
+<h2 id="recipients">3. Получатели данных и сетевые обращения</h2>
+<ul>
+<li><strong>Выбранный сервер и провайдер подписки.</strong> Получают обращения, данные авторизации и технические сведения, необходимые для подключения или получения подписки. Как и у любого интернет-соединения, принимающей стороне доступен сетевой адрес подключения. Клиент не гарантирует отсутствие журналов на чужих серверах.</li>
+<li><strong>DNS и проверки доступности.</strong> В зависимости от настроек используются выбранные вами DNS-серверы. Проверки соединения могут обращаться к сервисам Google и Cloudflare; они получают технические параметры запроса. Для проверки отдельного профиля запрос отправляется через проверяемую конфигурацию.</li>
+<li><strong>GitHub.</strong> Проверка и загрузка обновлений обращается к GitHub Releases. Сервис получает обычные технические сведения запроса. Данные серверных профилей не включаются в запрос проверки обновлений. См. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">политику GitHub</a>.</li>
+</ul>
+<p>В проверенной версии клиента отсутствуют встроенные SDK рекламы и аналитики. Трафик не перенаправляется для рекламной монетизации, профили и данные соединений не продаются.</p>
+<h2>4. Разрешения и защита</h2>
+<p>Android запрашивает ваше разрешение перед созданием системного сетевого туннеля. Постоянное уведомление показывает работу соединения. Доступ к сети нужен для подключения и обновления подписок. Доступ к установке пакетов используется отдельной APK-версией для установки обновления после вашего действия.</p>
+<p>На Android профили и адреса подписок хранятся с шифрованием AES-GCM; ключ находится в Android Keystore, системное резервное копирование данных приложения отключено. Windows-клиент защищает хранилище средствами учётной записи Windows. Защита передачи до сервера зависит от протокола и параметров выбранного профиля; используйте конфигурации с шифрованием и доверенных провайдеров.</p>
+<h2 id="retention">5. Сроки хранения и удаление</h2>
+<ul>
+<li>Профили и подписки хранятся на устройстве до удаления через приложение, очистки его данных или удаления приложения.</li>
+<li>Настройки, идентификатор установки и правила приложений сохраняются до очистки данных или удаления приложения. Удаление одной подписки не сбрасывает идентификатор установки.</li>
+<li>Журнал интерфейса Android ограничен последними 100 событиями и хранится в памяти процесса. Временный файл ошибок ядра очищается при завершении соединения; аварийно оставшийся файл заменяется при следующем запуске соединения. Автоматическая передача журналов не выполняется.</li>
+<li>Загруженные файлы обновлений находятся в локальном кэше. Их можно удалить очисткой кэша или данных приложения.</li>
+<li>Сведения в обращениях поддержки нужны до завершения обращения; удаление можно запросить в том же обращении. Возможность удаления истории, копий и резервных данных на GitHub определяется правилами GitHub.</li>
+</ul>
+<p>Клиент не создаёт центральную учётную запись Lucifer Connect. Очистка локальных данных не удаляет аккаунт или историю у стороннего провайдера: для этого обратитесь к нему отдельно. Подробные действия доступны на странице <a href="/delete-data/">удаления данных</a>.</p>
+<h2>6. Данные посетителей сайта</h2>
+<p>Сайт размещён на GitHub Pages. При открытии страниц хостинг получает технические параметры HTTP-запроса, включая сетевой адрес и сведения о браузере. Главная страница загружает шрифты Google Fonts; применяются <a href="https://policies.google.com/privacy">правила Google</a>. На страницах документов используются системные шрифты. Сайт не содержит собственных форм регистрации, рекламных трекеров или счётчиков аналитики и не устанавливает собственные файлы cookie. Ссылки на сторонние сервисы открывают ресурсы с их собственными правилами.</p>
+<h2 id="contact">7. Обращения и изменения политики</h2>
+<p>Вопросы по этой политике и запросы об удалении сведений, переданных проекту, можно направить через <a href="https://github.com/Efreitor2001/lucifer-connect/issues/new">канал поддержки Lucifer Connect</a>. Публикуйте только несекретное описание запроса. Для обращения необходим аккаунт GitHub; для использования приложения он не нужен.</p>
+<p>При изменении обработки данных обновляется эта страница и дата редакции. Если новая функция требует отдельного согласия или разрешения, оно запрашивается в приложении.</p>
+<h2 id="english" lang="en">English summary</h2>
+<div lang="en">
+<p>Lucifer Connect is a secure-network client for Android and Windows. No Lucifer Connect account, name, email or phone number is required. Profiles, subscription URLs and settings are stored locally. Android encrypts profile storage with Android Keystore; Windows uses account-bound protected storage.</p>
+<p>The client processes network traffic and DNS requests to establish the user-selected tunnel and routing rules. Your selected server and DNS provider handle the corresponding requests. Subscription requests include a domain-specific derivative of a random installation identifier, system version and client version. Android also sends the device model; Windows sends the device type «PC». The subscription provider may return quota and expiry information. Third-party servers may have their own logging and retention policies.</p>
+<p>Connection checks may contact Google and Cloudflare. Update checks and downloads contact GitHub. Remote services receive ordinary network-request information. The reviewed client has no integrated advertising or analytics SDK and does not automatically upload diagnostic logs or the installed-app selection.</p>
+<p>Delete profiles and subscriptions in the app. Clear app storage or uninstall to remove remaining local settings and installation identifiers. For data held by your subscription provider, contact that provider. Support requests are handled through <a href="https://github.com/Efreitor2001/lucifer-connect/issues/new">the Lucifer Connect GitHub project</a>, where submissions may be public and GitHub's privacy policy applies. Do not submit credentials. The Russian sections above provide the full policy; this is a summary of the same practices.</p>
+</div>
+
+  </main>
+  <footer class="legal-footer wrap">
+    <nav class="legal-nav" aria-label="Документы и поддержка"><a href="/privacy/" aria-current="page">Конфиденциальность</a>
+<a href="/terms/">Условия использования</a>
+<a href="/delete-data/">Удаление данных</a>
+<a href="/support/">Поддержка</a></nav>
+    <p>Lucifer Connect © 2026 · Android и Windows</p>
+  </footer>
+</body>
+</html>
